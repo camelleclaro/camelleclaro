@@ -1,0 +1,280 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;/* em is more preferrably on mobile devices rather than px*/
+    /* line height is like line sacing in MS Word */
+}
+
+a {
+    color: #625261;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Navbar */
+#navbar {
+    background: #625261;
+    color: #ffffff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #ffffff;
+}
+
+#navbar h1 { 
+    float: left; 
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background: #625261;
+    color: rgb(240, 200, 176);
+}
+
+/* Utilize for Mobile View */
+.container {
+    margin: 0 auto;
+    max-width: 1100px; /*specific na width sa browser*/
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* Showcase */
+#showcase {
+    background: url("../img/whiteworkspace.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content {
+    color: rgb(185, 105, 68);
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+.lead {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(238, 228, 214);
+    background: #be836c;
+    padding: 13px 20px;
+    border: 1px solid #625261;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #c98367;
+    color: #af7158;
+}
+
+/* showcase 2 */
+#showcase-2 {
+    background: url("../img/whitebulb.jpg") no-repeat center center/cover;
+    height: 800px;
+}
+#showcase-2 h1 {
+    font-size: 45px;
+    line-height: 1.2em;
+    padding-top: 40px;
+    text-align: center;
+    color: #c98367;
+    font-size: 45px;
+    border-top: 3px dashed darkslategrey;
+}
+#showcase-2 h2,
+#showcase-2 h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content-2-1 p,
+#showcase .showcase-content-2-2-2 p {
+    padding-bottom: 5px;
+    line-height: 1.7em;
+}
+
+.educ {
+    margin-top: 5px dashed  #333333;
+}
+.edu {
+    color: #ce947d;
+}
+.photo {
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+.showcase-content-2-1{
+    float: left;
+    width: 75%;
+    text-align: justify;
+}
+.showcase-content-2-1-1{
+    float: right;
+}
+.showcase-content-2-2{
+    float: left;
+}
+.showcase-content-2-2-2{
+    float: right;
+    width: 75%;
+    margin-left: 15px;
+    text-align: justify;
+}
+.dummy {
+    clear: both;
+    max-width: 1100px;
+}
+.showcase-container-1,
+.showcase-container-2 {
+    margin-top: 20px;
+    max-width: 1100px;
+}
+
+/* showcase 3 services*/
+#showcase-3 {
+    background: url("../img/whitelandscape.jpg") no-repeat center center/cover;
+    height: 800px;
+}
+#showcase-3 h1{
+    font-size: 45px;
+    line-height: 1.2em;
+    padding-top: 40px;
+    text-align: center;
+    color: #c98367;
+    border-bottom: 3px dashed darkslategrey;
+}
+#showcase-3 h3{
+    font-size: 20px;
+    line-height: 1.2em;
+    padding-top: 15px;
+    text-align: center;
+    color: #c98367;
+}
+#showcase-3 p{
+    padding-bottom: 50px;
+    line-height: 1.7em;
+    text-align: center;
+}
+#showcase-3 .showcase-content-3 {
+    display: inline-block;
+    padding: 85px 100px;
+    margin: 0 auto;
+    vertical-align: middle;
+    max-width: 1100px;
+}
+.img {
+    width: 260px;
+    height: 290px;
+    display: block;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+.services {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+/* contact */
+#showcase-4{
+    background: url("../img/feather.jpg") no-repeat center center/cover;
+    height: 800px;
+}
+#showcase-4 h1{
+    font-size: 45px;
+    line-height: 1.2em;
+    padding-top: 40px;
+    text-align: center;
+    color: #c98367;
+    border-bottom: 3px dashed darkslategrey;
+}
+.showcase-content-4 {
+    display: block;
+    background: rgba(194, 125, 125, 0);
+    padding: 50px;
+    max-width: 1100px;
+    text-align: right;
+}
+input {
+    width: 500px;
+    height: 30px;
+    }
+label {
+    font-size: 20px;
+    color: black;
+}
+
+/* footer */
+#footer {
+    background: #625261;
+    overflow: auto;
+    height: 110px;
+}
+#footer h3{
+    text-align: center;
+    color: azure;
+    font-size: 15px;
+    padding-bottom: 0;
+}
+#footer p{
+    text-align: center;
+    color: azure;
+    font-size: 10px;
+    margin: 0 auto;
+}
+#footer a{
+    padding: 0 20px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+.footer {
+    text-align: center;
+    line-height: 1em;
+    display: block;
+    padding: 10px 0;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Project One</title>
+    <!-- shortcuts: nav#navbar,.container,h1.logo>a,ul>li*3>a -->
+    <!-- header,nav,div,h1,ul*li -->
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1><a href="index.html">ICAxCREATION</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="showcase" data-aos="fade-down">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1>Camelle M. Claro</h1>
+                    <p class="lead">I go to seek a Great Perhaps.</p>
+                    <a class="btn" href="about.html">About Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="showcase-2" data-aos="fade-up">
+        <div class="container educ">
+            <h1>Educational Background</h1>
+            <div class="showcase-container-1">
+                <div class="showcase-content-2-1">
+                    <h2 class="edu">Secondary Education</h2>
+                    <p>Lorem ipsum dolor sit amet
+                         consectetur adipisicing elit.
+                         Maxime repudiandae, odio neque
+                         dolores voluptas incidunt.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima commodi eos blanditiis perferendis, odio libero? Odit eligendi rem corporis, accusamus animi 
+                        esse maiores voluptas optio eos commodi quae quod culpa!</p>
+                </div>
+                <div class="showcase-content-2-1-1">
+                    <img class="photo" src="img/school.png" alt="building-line-art" data-aos="fade-left">
+                </div>
+            </div>
+            <div class="dummy"></div>
+            <div class="showcase-container-2">
+                <div class="showcase-content-2-2">
+                    <img class="photo" src="img/school-1.jpg" alt="girl-talking-lineart" data-aos="fade-right">
+                </div>
+                <div class="showcase-content-2-2-2">
+                    <h2 class="edu">Tertiary Education</h2>
+                    <p>Lorem ipsum dolor sit amet
+                         consectetur adipisicing elit. 
+                         In voluptatibus obcaecati placeat iste,
+                         temporibus perspiciatis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quod ducimus, harum sit veritatis quibusdam repellendus labore tempora mollitia vel, porro optio nesciunt quae corporis 
+                        laboriosam beatae cumque sapiente maxime!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="showcase-3" data-aos="fade-up">
+        <div class="container">
+            <h1>Services</h1>
+            <div class="showcase-content-3">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum porro repudiandae omnis impedit autem eveniet, sit a deserunt minus quaerat facere delectus amet, laudantium temporibus modi dicta quas, labore ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sed alias veritatis in soluta, odio, temporibus amet accusantium vero labore omnis quo velit pariatur inventore culpa, recusandae saepe laudantium quibusdam!</p>
+                <div class="services">
+                    <a href="services.html">
+                        <img class="img" src="./img/social.jpg" alt="instagram-heart">
+                        <h3>Social Media Marketing</h3>
+                    </a>
+                </div>
+                <div class="services">
+                    <a href="services.html">
+                        <img class="img" src="./img/paint.jpg" alt="paint">
+                        <h3>Art Comissions</h3>
+                    </a>
+                </div>
+                <div class="services">
+                    <a href="services.html">
+                        <img class="img" src="./img/code.jpg" alt="html">
+                        <h3>Web Designing</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="showcase-4" data-aos="fade-down">
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="showcase-content-4">
+                <section>
+                    <label for="fname">Full Name: </label>
+                    <input type="text" name="fullname" placeholder="Enter your full name">
+                    <br>
+                    <br>
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" placeholder="Enter your email">
+                    <br>
+                    <br>
+                    <label class="message" for="message">Message: </label>
+                    <textarea name="message" id="message-id" cols="69" rows="10" placeholder="Message Box"></textarea>
+                    <br>
+                    <button class="btn" type="submit">Send</button>
+                  </section>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container footer">
+            <h3>Copyright Camelle Claro</h3>
+            <p>CWB</p>
+            <a href="https://www.facebook.com/camelleclaro"><img class="icon" src="./img/fb-icon-png.png" alt="fb-icon"></a>
+            <a href="https://www.instagram.com/ica.mie/?hl=en"><img class="icon" src="./img/ig-icon.png" alt="ig-icon"></a>
+            <a href="https://twitter.com/marshmehlow"><img src="./img/twitter-icon.png" alt="twitter-icon" class="icon"></a>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        offset: 400,
+        duration: 1000
+    });
+    </script>
+</body>
+</html>
